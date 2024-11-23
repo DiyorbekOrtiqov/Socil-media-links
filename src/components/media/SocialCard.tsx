@@ -14,6 +14,7 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import QuestionMarkSharpIcon from "@mui/icons-material/QuestionMarkSharp";
 import AtSignIcon from "@mui/icons-material/AlternateEmail";
+import XIcon from "@mui/icons-material/X";
 
 const IconWrapper = styled(Box)({
   fontSize: "2.5rem",
@@ -87,6 +88,8 @@ const MediaIcon = ({ profile }: MediaIconProps) => {
         <FacebookIcon sx={{ fontSize: "3rem" }} />
       ) : profile.name === "Three" ? (
         <AtSignIcon sx={{ fontSize: "3rem" }} />
+      ) : profile.name === "Twitter" ? (
+        <XIcon sx={{ fontSize: "3rem" }} />
       ) : (
         <QuestionMarkSharpIcon sx={{ fontSize: "3rem" }} />
       )}

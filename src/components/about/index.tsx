@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography } from "@mui/material";
 import bgImage from "../../assets/bgImage.png";
-import AvatarImage from "../../assets/avatar.png";
+import AvatarImage from "../../assets/Icons.png";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import { styled } from "@mui/material/styles";
 import { useNavigate } from "react-router-dom";
@@ -80,7 +80,7 @@ const AboutUser = () => {
           <HeroImage src={AvatarImage} alt="Professional portrait" />
         </ImageWrapper>
         <ContentWrapper>
-          <HeroTitle variant="h1">I'm Samandar</HeroTitle>
+          <HeroTitle variant="h1">I'm Samandar Abduqodir</HeroTitle>
           <HeroSubtitle variant="h5">
             University Student Specializing in Accounting
           </HeroSubtitle>
