@@ -105,8 +105,6 @@ const SocialCard = () => {
     event.preventDefault();
     if (url.startsWith("http://") || url.startsWith("https://")) {
       window.open(url, "_blank");
-    } else {
-      console.error("Invalid URL:", url);
     }
   };
 

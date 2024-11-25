@@ -80,7 +80,7 @@ const AboutUser = () => {
           <HeroImage src={AvatarImage} alt="Professional portrait" />
         </ImageWrapper>
         <ContentWrapper>
-          <HeroTitle variant="h1">I'm Samandar Abduqodir</HeroTitle>
+          <HeroTitle variant="h1">I'm Samandar Abduqodirov</HeroTitle>
           <HeroSubtitle variant="h5">
             University Student Specializing in Accounting
           </HeroSubtitle>
