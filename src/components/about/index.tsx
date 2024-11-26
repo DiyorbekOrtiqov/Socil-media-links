@@ -101,7 +101,7 @@ const AboutUser = () => {
             }}
             onClick={() => navigate("about-me")}
           >
-            Hire Me
+            About Me
           </Button>
         </ContentWrapper>
       </HeroContainer>
